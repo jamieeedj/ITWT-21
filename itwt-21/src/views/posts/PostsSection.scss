@@ -1,0 +1,14 @@
+.posts-section {
+	width: 90%;
+	max-width: 1190px;
+	min-height: 695px;
+	margin: auto;
+}
+
+.posts-section__content {
+	padding: 1.25rem;
+
+	display: flex;
+	flex-direction: column;
+	gap: 1.5rem;
+}

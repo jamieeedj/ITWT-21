@@ -1,0 +1,48 @@
+.navbar {
+	width: 90%;
+	max-width: 1190px;
+	margin: auto;
+
+	background-color: var(--white);
+
+	padding: 1rem 0rem;
+
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.navbar--brand {
+	display: flex;
+	align-items: center;
+	gap: 1rem;
+
+	text-decoration: none;
+	font-weight: 900;
+	font-size: 2rem;
+
+	color: var(--black);
+}
+
+.navbar--brand:hover {
+	color: var(--black);
+}
+
+.navbar--brand__image {
+	height: 75px;
+}
+
+.navbar--items {
+	display: flex;
+	gap: 1rem;
+}
+
+@media screen and (max-width: 600px) {
+	.navbar--item__signup {
+		display: none;
+	}
+
+	.navbar--item__posts {
+		display: none;
+	}
+}

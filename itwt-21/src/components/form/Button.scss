@@ -1,0 +1,38 @@
+.button {
+	cursor: pointer;
+	color: var(--white);
+	background-color: var(--black);
+	border: 1.75px solid var(--black);
+	text-decoration: none;
+	text-align: center;
+
+	font-weight: 600;
+	font-size: 1.125rem;
+
+	padding: 0.25rem 1.75rem;
+
+	transition: all 400ms ease;
+}
+
+.button:hover {
+	color: var(--white);
+	background-color: var(--gray);
+	border: 1.75px solid var(--gray);
+}
+
+.button--inverse {
+	background-color: transparent;
+	border: 1.75px solid var(--black);
+	color: var(--black);
+}
+
+.button--inverse:hover {
+	color: var(--white);
+	background-color: var(--black);
+	border: 1.75px solid var(--black);
+}
+
+.button--danger {
+	background-color: var(--red);
+	border: 1.75px solid var(--red);
+}

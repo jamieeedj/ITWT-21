@@ -1,0 +1,29 @@
+.form-control {
+	display: flex;
+	flex-direction: column;
+	gap: 0.5rem;
+
+	padding: 0;
+	border: none;
+}
+
+.input {
+	border-bottom: 3px solid var(--gray);
+	padding: 1rem 1rem 0.25rem 0.5rem;
+
+	font-size: 1.25rem;
+	caret-color: var(--gold);
+	color: var(--gold);
+}
+
+.input:focus {
+	outline: none;
+}
+
+.input-error {
+	color: var(--red);
+	font-weight: 600;
+	font-size: 1.125rem;
+
+	margin-right: 1rem;
+}
